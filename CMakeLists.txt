@@ -11,11 +11,13 @@ set(CMAKE_C_STANDARD 11)
 include_directories(Calculator)
 include_directories(HanoiTower)
 include_directories(Mdb)
+include_directories(MacroFunc)
 
 add_executable(c_course
 #        Calculator/main.c
 #        Calculator/main.h
-        HanoiTower/tower_main.c
-        HanoiTower/tower_main.h
+#        HanoiTower/tower_main.c
+#        HanoiTower/tower_main.h
+#        MacroFunc/macro_function.c
         LICENSE
         README.md)
