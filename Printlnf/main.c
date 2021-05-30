@@ -18,6 +18,10 @@ void Printlnf(const char* format, ...) {
 //#define PRINT_INT(value)
 
 int main(void) {
+    char array_char[5] = {[2] = 'a', 'b', 'c'};
+    for (int i = 0; i < 5; ++i) {
+        PRINT_CHAR(array_char[i]);
+    }
     int value = 2;
     Printlnf("hello world %d", value);
     PRINTLNF("hello world %d", value);
