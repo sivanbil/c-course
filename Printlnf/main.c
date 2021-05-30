@@ -1,8 +1,8 @@
 //
 // Created by sivan on 2021/5/30.
 //
-
 #include "main.h"
+#include "../include/io_utils.h"
 
 void Printlnf(const char* format, ...) {
     va_list args;
@@ -12,13 +12,16 @@ void Printlnf(const char* format, ...) {
     va_end(args);
 }
 // use macro function
-#define PRINTLNF(format, ...) printf(format"\n", ##__VA_ARGS__)
-
-#define PRINT_INT(value)
+//#define PRINTLNF(format, ...) printf(format"\n", ##__VA_ARGS__)
+//#define PRINTLNF(format, ...) printf(format"\n", ##__VA_ARGS__)
+//
+//#define PRINT_INT(value)
 
 int main(void) {
     int value = 2;
     Printlnf("hello world %d", value);
     PRINTLNF("hello world %d", value);
+    PRINT_INT(2);
+    PRINT_DOUBLE(2.0);
     return 0;
 }
