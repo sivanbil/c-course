@@ -12,6 +12,8 @@ include_directories(Calculator)
 include_directories(HanoiTower)
 include_directories(Mdb)
 include_directories(MacroFunc)
+include_directories(CompileCondition)
+include_directories(Printlnf)
 
 add_executable(c_course
 #        Calculator/main.c
@@ -19,5 +21,8 @@ add_executable(c_course
 #        HanoiTower/tower_main.c
 #        HanoiTower/tower_main.h
 #        MacroFunc/macro_function.c
+#        CompileCondition/main.c
+        Printlnf/main.c
+        Printlnf/main.h
         LICENSE
         README.md)
