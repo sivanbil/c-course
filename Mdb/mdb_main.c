@@ -2,8 +2,8 @@
 // Created by sivan on 2021/5/30.
 //
 
-#include "main.h"
+#include "mdb_main.h"
 
 int main(void) {
-
+    return 0;
 }
