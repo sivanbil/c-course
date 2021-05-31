@@ -28,7 +28,9 @@ add_executable(c_course
 #        Printlnf/main.h
 #        ArrayBoundary/main.c
 #        ArrayBoundary/main.h
-        Pointer/main.c
+#        Pointer/main.c
+#        Pointer/left_right_value.c
+        Pointer/malloc.c
         Pointer/main.h
         include/io_utils.h
         LICENSE
