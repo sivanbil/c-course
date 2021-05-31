@@ -20,6 +20,8 @@
 
 #define PRINT_INT(int_value) PRINTLNF(#int_value": %d", int_value)
 
+#define PRINT_HEX(int_value) PRINTLNF(#int_value": %#x", int_value)
+
 #define PRINT_DOUBLE(double_value) PRINTLNF(#double_value": %lf", double_value)
 
 #endif //C_COURSE_IO_UTILS_H

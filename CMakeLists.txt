@@ -10,11 +10,11 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(Calculator)
 include_directories(HanoiTower)
-include_directories(Mdb)
 include_directories(MacroFunc)
 include_directories(CompileCondition)
 include_directories(Printlnf)
 include_directories(ArrayBoundary)
+include_directories(Pointer)
 include_directories(include)
 
 add_executable(c_course
@@ -26,8 +26,10 @@ add_executable(c_course
 #        CompileCondition/main.c
 #        Printlnf/main.c
 #        Printlnf/main.h
-        ArrayBoundary/main.c
-        ArrayBoundary/main.h
+#        ArrayBoundary/main.c
+#        ArrayBoundary/main.h
+        Pointer/main.c
+        Pointer/main.h
         include/io_utils.h
         LICENSE
         README.md)
