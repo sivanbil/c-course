@@ -15,6 +15,7 @@ include_directories(CompileCondition)
 include_directories(Printlnf)
 include_directories(ArrayBoundary)
 include_directories(Pointer)
+include_directories(Struct)
 include_directories(include)
 
 add_executable(c_course
@@ -30,8 +31,10 @@ add_executable(c_course
 #        ArrayBoundary/main.h
 #        Pointer/main.c
 #        Pointer/left_right_value.c
-        Pointer/malloc.c
-        Pointer/main.h
+#        Pointer/malloc.c
+#        Pointer/main.h
+        Struct/main.c
+        Struct/main.h
         include/io_utils.h
         LICENSE
         README.md)
