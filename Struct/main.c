@@ -27,4 +27,5 @@ int main() {
 
     PRINT_INT(sizeof(person));
     PRINT_HEX(person);
+    return 0;
 }

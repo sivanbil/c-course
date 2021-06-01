@@ -6,6 +6,7 @@
 #define C_COURSE_IO_UTILS_H
 #include <stdio.h>
 #include <stdarg.h>
+#include <stdlib.h>
 
 #define PRINT_METADATA
 #ifdef PRINT_METADATA

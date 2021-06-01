@@ -33,7 +33,8 @@ add_executable(c_course
 #        Pointer/left_right_value.c
 #        Pointer/malloc.c
 #        Pointer/main.h
-        Struct/main.c
+#        Struct/main.c
+        Struct/link_node.c
         Struct/main.h
         include/io_utils.h
         LICENSE
