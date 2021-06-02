@@ -16,6 +16,7 @@ include_directories(Printlnf)
 include_directories(ArrayBoundary)
 include_directories(Pointer)
 include_directories(Struct)
+include_directories(FileStream)
 include_directories(include)
 
 add_executable(c_course
@@ -34,8 +35,10 @@ add_executable(c_course
 #        Pointer/malloc.c
 #        Pointer/main.h
 #        Struct/main.c
-        Struct/link_node.c
-        Struct/main.h
+#        Struct/link_node.c
+#        Struct/main.h
+        FileStream/main.c
+        FileStream/main.h
         include/io_utils.h
         LICENSE
         README.md)
